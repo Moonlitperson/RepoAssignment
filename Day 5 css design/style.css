@@ -10,4 +10,5 @@ main {
     text-align: center;
     font-family: fantasy;
     font-size: larger;
+    text-wrap:initial;
 }
