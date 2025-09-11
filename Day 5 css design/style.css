@@ -2,11 +2,12 @@ body {
 background-image: url("https://tse2.mm.bing.net/th/id/OIP.uO252i_kYobSGkJJX8fB_wHaC8?rs=1&pid=ImgDetMain&o=7&rm=3");
 background-size:cover;
 background-repeat:no-repeat;
-background-attachment:local;
+background-attachment: fixed;
 text-align: center;
 font-family:Arial, Helvetica, sans-serif;
 }
-header {
-
+main {
     text-align: center;
+    font-family: fantasy;
+    font-size: larger;
 }
