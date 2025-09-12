@@ -5,10 +5,16 @@ background-repeat:no-repeat;
 background-attachment: fixed;
 text-align: center;
 font-family:Arial, Helvetica, sans-serif;
+font-size: x-large;
 }
 main {
     text-align: center;
     font-family: fantasy;
     font-size: larger;
     text-wrap:initial;
+}
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
 }
