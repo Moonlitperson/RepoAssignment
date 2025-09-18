@@ -3,8 +3,8 @@
 <head>
     <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="styles/style.template.css">
+    <title> | Portfolio Site</title>
+    <link rel="stylesheet" href="styles/style_template.css">
 
 </head>
 <body>
@@ -15,7 +15,11 @@
 
         <!-- Nav -->
          <nav>
-            <a href=""></a>
+            <a href="index.html">Home</a>
+            <a href="Degree.html">Degree</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="Gaming.html">Gaming</a>
+            <a href="Social.html">Social</a>
 
 
 
@@ -26,6 +30,14 @@
 
     
      </header>
+     <!--Hero Image-->
+     <section class="hero">
+        <img src="">
+        <div class="hero-text">
+        <h2></h2>
+        <p></p>
+        </div>
+     </section>
      <!-- Main Content -->
       <main>
         <h2></h2>
@@ -34,9 +46,42 @@
 
 
       </main>
+
+      <!--Features-->
+
+      <section class="features">
+        <div class="feature">
+        <h3></h3>
+        <p></p>
+        </div>
+        <div class="feature">
+        <h3></h3>
+        <p></p>
+        </div>
+        <div class="feature">
+        <h3></h3>
+        <p></p>
+        </div>
+      </section>
+
+      <!--Gallery-->
+
+      <section class="gallary">
+        <h2></h2>
+        <p></p>
+        <div class="gallery-grid">
+        <img src="">
+        <img src="">
+        <img src="">
+        </div>
+      </section>
+
+
+
+
       <!-- Footer -->
        <footer>
-        <p></p>
+        <p>OwO UwU EwE QwQ Rawr Mrrrow Blehhh :3</p>
         
 
        </footer>
