@@ -5,6 +5,8 @@
 
 body{
     font-family: Arial, sans-serif;
+
+    font-size: 1em; /* measurement based off of the letter M */
     line-height: 1.6;
     max-width: 960px;
     margin: auto;
@@ -87,10 +89,18 @@ footer {
     border-top: 1px solid #ccc;
 }
 
-
+/*Small browser css*/
 @media (max-width: 600px) {
     nav a{
         display:block;
         margin: 0.5rem;
+    }
+}
+
+/*Phone css*/
+@media (max-width: 390px) {
+    nav a{
+        display:block;
+        margin: 0.25rem;
     }
 }
