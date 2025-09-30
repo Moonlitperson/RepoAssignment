@@ -1,0 +1,166 @@
+*
+{
+    margin: 0; padding: 0; box-sizing: border-box;
+    background: #524441;
+    
+}
+
+body{
+    font-family: Arial, sans-serif;
+
+    font-size: 1em; /* measurement based off of the letter M */
+    line-height: 1.6;
+    max-width: 960px;
+    margin: auto;
+    
+}
+
+header{
+    position: sticky;
+    background: #640096;
+    color: white;
+}
+
+header h1{
+    margin-bottom: 0.5rem;
+}
+
+nav a {
+    position: sticky;
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    position: sticky;
+    text-decoration: underline;
+    background: rgba(0,0,0,0.333);
+    border-radius: 4px;
+}
+
+nav a:visited {
+    /* This is the pseudo class for showing if they visited page*/
+    color: lightgray;
+}
+
+nav {
+    position: sticky;
+    top:0;
+    background: #49006e;
+    padding: 0.5rem;
+    z-index: 1000;
+}
+
+.nav-toggle {
+    position: sticky;
+    display: none;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.nav-links {
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.hero img {
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:auto;
+    display:block;
+}
+
+main {
+    margin: 1.5rem;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+    padding: 0 1em;
+}
+
+.feature {
+    flex: 1;
+    margin: 0 1em;
+    text-align: center;
+}
+
+.gallery h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+    padding: 0 1em;
+}
+
+.gallery-grid img {
+    align-content: center;
+    flex: 1;
+    margin: 0 1em;
+    width: 25%;
+    height: auto;
+    border-radius: 6px;
+}
+footer { 
+    background-color: #ff00ff;
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid;
+}
+
+@media (min-width: 601px) {
+    nav a{
+        display:block;
+        margin: 0.75rem;
+    }
+    .nav-links { display: none; flex-direction: column; }
+    .nav-links.active { display: flex; }
+    .nav-toggle { display: block; }
+}
+
+/*Small browser css*/
+@media (max-width: 600px) {
+    nav a{
+        display: block;
+        margin: 0.5rem;
+    }
+    .nav-links { display: none; flex-direction: column; }
+    .nav-links.active { display: flex; }
+    .nav-toggle { display: block; }
+}
+
+/*Phone css*/
+@media (max-width: 390px) {
+    nav a{
+        display:block;
+        margin: 0.25rem;
+    }
+    .nav-links { display: none; flex-direction: column; }
+    .nav-links.active { display: flex; }
+    .nav-toggle { display: block; }
+
+@media (max-width: 600px) {
+    nav a{
+        display:block;
+        margin: 0.5rem 0;
+    }
+    /*Hamburger on small screens */
+    .nav-links { display: none; flex-direction: column; }
+    .nav-links.active { display: flex; }
+    .nav-toggle { display: block; }
+}
+}
