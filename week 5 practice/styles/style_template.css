@@ -118,6 +118,9 @@ main {
 footer { 
     background-color: #ff00ff;
     text-align: center;
+    fill: #ff00ff;
+    text-decoration-color: #ff00ff;
+    text-emphasis-color: #ff00ff;
     padding: 1rem;
     border-top: 1px solid;
 }

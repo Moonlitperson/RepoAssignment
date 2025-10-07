@@ -1,3 +1,5 @@
+
+Mobile
 -----------------------
        - header -
         - nav-
@@ -6,3 +8,22 @@
 - --------------------
 -        main     -
 -  features/gallary -
+-----------------------
+        -footer-
+
+
+
+
+
+Desktop
+
+------------------
+     -header-
+     -nav-
+     -hero image-
+--------------------
+      -main-
+      -features-
+      -gallary-
+--------------------
+      -footer-
